@@ -13,7 +13,7 @@ public class Demo {
 		System.out.println("Day 1: Heads... Sunny");
 		for (int i = 1; i < numberOfTrials; i++) {
 			System.out.print("Day " + (i + 1) + ": ");
-			flip(isSunny);
+			isSunny = flip(isSunny);
 		}
 
 	}
@@ -27,7 +27,7 @@ public class Demo {
 				System.out.println("Tails... Cloudy");
 				return false;
 			}
-		} else { // if previous day was cloudy, flip twice (this code never gets reached)
+		} else {
 			if (Math.random() < 0.5) {
 				System.out.println("Heads on first toss");
 				if (Math.random() < 0.5) {
