@@ -1,1 +1,1 @@
-
+Using the weather Markov chain in Example 1, simulate the weather over 10 days by flipping a coin to determine the chances if sunny or cloudy weather the next day according to the Markov chain's transition probabilities. If currently sunny, flip once and a head means sunny the next day and a a tail means cloudy the next day. If currently cloudy, flip twice and when either flip is a head it is sunny the next day and when both flips are tails it is cloudy the next day. To start, assume that the previous day was sunny. What fraction of the 10 days was sunny?
