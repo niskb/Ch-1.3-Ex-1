@@ -19,7 +19,7 @@ public class Demo {
 	}
 
 	public static boolean flip(boolean isSunny) {
-		if (isSunny) { // if previous day was sunny, flip once
+		if (isSunny) { // if previous day was sunny, flip once and if previous day was cloudy, flip twice
 			if (Math.random() < 0.5) {
 				System.out.println("Heads... Sunny!");
 				return true;
